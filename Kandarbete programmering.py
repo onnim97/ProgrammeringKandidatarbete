@@ -117,9 +117,13 @@ def makePlot(projection, field, lat, lon, fig_title, title, levels, cmap):
 
 #Read nc file
 def readfilepslevel(filename):
+    <details>
+    <summary>Click to expand!</summary>
     filepath = "C:/Users/Onni/Desktop/Koulu/Kandidatprogram i Meteorologi/Arskurs 3/Bachelor thesis/Programmering/" + filename + ".nc"
     datapslevel = Dataset(filepath, 'r')
     return datapslevel
+    </details>
+
 
 
 #Calculates LTS for a region
